@@ -1,0 +1,169 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* 1st part */
+.container-1 {
+    width: 1321px;
+    height: 664px;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    border-radius: 20px;
+
+}
+
+.blog {
+    color: #FFFFFFFF;
+    width: 400px;
+    height: 424px;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.button-1 {
+    background-color: red;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.button-info {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.player-1 {
+    height: 613px;
+    width: 581px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.player-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* container-2 */
+.side-bar {
+    width: 312px;
+    height: 312px;
+    display: grid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+}
+
+.side-bar-1 {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.side-bar-2 {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* container-2 2nd part */
+.container-2 {
+    display: flex;
+}
+
+.match-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+}
+
+.matches {
+    width: 312px;
+    height: 362px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding-bottom: 35px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.match-detailes,
+.match-video-info {
+    padding-left: 20px;
+}
+
+.transfer-style {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.match-video-info {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+/* footer part */
+.footer-part {
+    background-color: #161616;
+    color: white;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.goal {
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.information a {
+    font-weight: 200;
+}
+
+.information-1 {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+
+
+}
