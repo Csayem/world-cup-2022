@@ -5,8 +5,12 @@
     justify-content: center;
     margin-bottom: 80px;
     border-radius: 20px;
+}
 
-
+.container-1:hover {
+    background: lightpink;
+    transition: all 0.8s ease;
+    box-shadow: inset 0 0 0 40px rgb(230, 38, 38);
 
 }
 
