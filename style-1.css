@@ -6,6 +6,8 @@
     margin-bottom: 80px;
     border-radius: 20px;
 
+
+
 }
 
 .blog {
@@ -64,12 +66,14 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color: #161616;
+
 }
 
 .side-bar-1 {
     width: 200px;
     height: 50px;
-    background-color: white;
+    background-color: red;
+    color: white;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -80,9 +84,9 @@ h1 {
 .side-bar-2 {
     width: 200px;
     height: 50px;
-    background-color: red;
+    background-color: white;
     border-radius: 10px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +96,7 @@ h1 {
 .button-info-1 {
 
     text-decoration: none;
-    color: white;
+    color: black;
 
 }
 
@@ -292,4 +296,12 @@ h1 {
 
 
 
+}
+
+/* desktop  part */
+@media screen and (min-width:993px) and (max-width:1400px) {
+    .side-bar {
+        position: sticky;
+        top: 0;
+    }
 }

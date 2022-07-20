@@ -66,6 +66,8 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color: #161616;
+
+
 }
 
 .side-bar-1 {
@@ -192,6 +194,42 @@ h1 {
 
 }
 
+.social-icon {
+    display: flex;
+    justify-content: center;
+
+    background-color: white;
+
+}
+
+.icon {
+    margin: 20px;
+    border: 1px solid silver;
+    height: 50px;
+    width: 80px;
+
+}
+
+.icon a .icon-1 {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+
+
+}
+
+.container-1:hover {
+    background: #53a7ea;
+    transition: all 0.2s ease;
+    box-shadow: inset 0 0 0 25px #0c77ce;
+
+}
+
+.container-1 .blog:hover {
+    color: #161616;
+}
+
+
 /* media quary I-phone_12 pro */
 @media screen and (max-width:688px) {
     .container-1 {
@@ -281,10 +319,14 @@ h1 {
 
 
 /* desktop  part */
-@media screen and (min-width:993px) and (max-width:1312px) {
+@media screen and (min-width:993px) and (max-width:1400px) {
     .view-button {
 
         display: none;
     }
 
+    .side-bar {
+        position: sticky;
+        top: 0;
+    }
 }
