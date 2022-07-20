@@ -242,7 +242,7 @@ h1 {
     }
 
     .container-1 .player-1 {
-        width: 100%;
+        width: 100vw;
         margin-left: 0;
         margin-top: 0
     }
@@ -313,6 +313,10 @@ h1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 5vw;
+    }
+
+    .footer-part {
+        width: 40vw;
     }
 
 }
